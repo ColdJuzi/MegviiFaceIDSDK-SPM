@@ -1,0 +1,49 @@
+{
+  "object" : {
+    "artifacts" : [
+      {
+        "kind" : {
+          "xcframework" : {
+
+          }
+        },
+        "packageRef" : {
+          "identity" : "megviifaceidsdk",
+          "kind" : "root",
+          "location" : "/Users/liangjuzi/Desktop/MegviiSDK/DemoMegLiveV5/MegviiFaceIDSDK",
+          "name" : "MegviiFaceIDSDK"
+        },
+        "path" : "/Users/liangjuzi/Desktop/MegviiSDK/DemoMegLiveV5/MegviiFaceIDSDK/Frameworks/MGFaceIDBaseKit.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "MGFaceIDBaseKitBinary"
+      },
+      {
+        "kind" : {
+          "xcframework" : {
+
+          }
+        },
+        "packageRef" : {
+          "identity" : "megviifaceidsdk",
+          "kind" : "root",
+          "location" : "/Users/liangjuzi/Desktop/MegviiSDK/DemoMegLiveV5/MegviiFaceIDSDK",
+          "name" : "MegviiFaceIDSDK"
+        },
+        "path" : "/Users/liangjuzi/Desktop/MegviiSDK/DemoMegLiveV5/MegviiFaceIDSDK/Frameworks/MegLiveV5Detect.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "MegLiveV5DetectBinary"
+      }
+    ],
+    "dependencies" : [
+
+    ],
+    "prebuilts" : [
+
+    ]
+  },
+  "version" : 7
+}
