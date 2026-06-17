@@ -63,7 +63,10 @@ let package = Package(
             dependencies: [
                 "MGFaceIDBaseKitBinary"
             ],
-            path: "Sources/MGFaceIDBaseKit"
+            path: "Sources/MGFaceIDBaseKit",
+            linkerSettings: [
+                .linkedFramework("AVFoundation"),
+            ]
         ),
         .target(
             name: "MegLiveV5Detect",
@@ -71,7 +74,16 @@ let package = Package(
                 "MGFaceIDBaseKit",
                 "MegLiveV5DetectBinary"
             ],
-            path: "Sources/MegLiveV5Detect"
+            path: "Sources/MegLiveV5Detect",
+            linkerSettings: [
+                .linkedFramework("AVFoundation"),
+                .linkedFramework("CoreMotion"),
+                .linkedFramework("CoreTelephony"),
+                .linkedFramework("MediaPlayer"),
+                .linkedFramework("WebKit"),
+                .linkedFramework("SystemConfiguration"),
+                .linkedLibrary("z")
+            ]
         ),
         .target(
             name: "MegLiveV5DetectLite",
@@ -79,7 +91,16 @@ let package = Package(
                 "MGFaceIDBaseKit",
                 "MegLiveV5DetectLiteBinary"
             ],
-            path: "Sources/MegLiveV5DetectLite"
+            path: "Sources/MegLiveV5DetectLite",
+            linkerSettings: [
+                .linkedFramework("AVFoundation"),
+                .linkedFramework("CoreMotion"),
+                .linkedFramework("CoreTelephony"),
+                .linkedFramework("MediaPlayer"),
+                .linkedFramework("WebKit"),
+                .linkedFramework("SystemConfiguration"),
+                .linkedLibrary("z")
+            ]
         ),
         .target(
             name: "MegLiveV5DetectGlobal",
@@ -87,7 +108,16 @@ let package = Package(
                 "MGFaceIDBaseKit",
                 "MegLiveV5DetectGlobalBinary"
             ],
-            path: "Sources/MegLiveV5DetectGlobal"
+            path: "Sources/MegLiveV5DetectGlobal",
+            linkerSettings: [
+                .linkedFramework("AVFoundation"),
+                .linkedFramework("CoreMotion"),
+                .linkedFramework("CoreTelephony"),
+                .linkedFramework("MediaPlayer"),
+                .linkedFramework("WebKit"),
+                .linkedFramework("SystemConfiguration"),
+                .linkedLibrary("z")
+            ]
         ),
         .target(
             name: "MegLiveV5DetectGlobalLite",
@@ -95,7 +125,16 @@ let package = Package(
                 "MGFaceIDBaseKit",
                 "MegLiveV5DetectGlobalLiteBinary"
             ],
-            path: "Sources/MegLiveV5DetectGlobalLite"
+            path: "Sources/MegLiveV5DetectGlobalLite",
+            linkerSettings: [
+                .linkedFramework("AVFoundation"),
+                .linkedFramework("CoreMotion"),
+                .linkedFramework("CoreTelephony"),
+                .linkedFramework("MediaPlayer"),
+                .linkedFramework("WebKit"),
+                .linkedFramework("SystemConfiguration"),
+                .linkedLibrary("z")
+            ]
         ),
         .target(
             name: "MegLiveV5DetectResources",

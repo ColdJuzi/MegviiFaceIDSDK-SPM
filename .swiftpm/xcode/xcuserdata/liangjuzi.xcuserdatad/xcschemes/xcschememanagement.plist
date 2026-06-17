@@ -50,5 +50,28 @@
 			<integer>4</integer>
 		</dict>
 	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>MegviiFaceIDV5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>MegviiFaceIDV5Global</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>MegviiFaceIDV5GlobalLite</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>MegviiFaceIDV5Lite</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>
