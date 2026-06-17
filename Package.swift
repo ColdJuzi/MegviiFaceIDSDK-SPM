@@ -41,22 +41,22 @@ let package = Package(
         .binaryTarget(
             name: "MegLiveV5DetectBinary",
             url: "https://bj-csg-prod-client.oss-cn-beijing.aliyuncs.com/FaceID_V5/SPM/V5.8.16/MegviiFaceID.zip",
-            checksum: "c4c53e7146871db17130482de676d329089f7edf5231dc082cd3354a09e3127f"
+            checksum: "6e90b68bf711061182d1f3f54c8feb63a4fd7d8824cc16ffede6b7b157e61c89"
         ),
         .binaryTarget(
             name: "MegLiveV5DetectLiteBinary",
             url: "https://bj-csg-prod-client.oss-cn-beijing.aliyuncs.com/FaceID_V5/SPM/V5.8.16/MegviiFaceIDLite.zip",
-            checksum: "f464c88fce04ecc6e175dd4c90a4c60ecdda5129779a74ce8700860e3dd0d5d4"
+            checksum: "c4d3b7242b3592e45c03bb3e0e5169ecc02305d2abe1008d75534ba59ad692a5"
         ),
         .binaryTarget(
             name: "MegLiveV5DetectGlobalBinary",
             url: "https://bj-csg-prod-client.oss-cn-beijing.aliyuncs.com/FaceID_V5/SPM/V5.8.16/MegviiFaceIDGlobal.zip",
-            checksum: "4d9009bac985fb97dc1fefe38a27d1636e1b9c5055bee2426669a17a1c3a9443"
+            checksum: "c51e164026f7dbcfeafcdc235e514d43f7d4352a883b3c9be2a1aa7b7a45f989"
         ),
         .binaryTarget(
             name: "MegLiveV5DetectGlobalLiteBinary",
             url: "https://bj-csg-prod-client.oss-cn-beijing.aliyuncs.com/FaceID_V5/SPM/V5.8.16/MegviiFaceIDGlobalLite.zip",
-            checksum: "5901576e5baeba3b9c0d3098b3d3c8972ab4a2f1c3c4397396dc0d5db9b4e0e0"
+            checksum: "78d350bda1535a0abe1159d7f2b7caf11f81a3c8894d6bd7cae4a2d069fd6226"
         ),
         .target(
             name: "MGFaceIDBaseKit",
