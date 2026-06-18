@@ -40,8 +40,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "MegLiveV5DetectBinary",
-            url: "https://bj-csg-prod-client.oss-cn-beijing.aliyuncs.com/FaceID_V5/SPM/V5.8.16/MegviiFaceID.zip",
-            checksum: "958c312bfcbd2144f6c451611b389f906097dffc5b84bb251c9bd3de657ab49b"
+            url: "https://bj-csg-prod-client.oss-cn-beijing.aliyuncs.com/FaceID_V5/SPM/V5.8.17/MegviiFaceID.zip",
+            checksum: "dc98d35ed046d949def39eed77324fcfcea9a759b1c41abfe2951a71238258b0"
         ),
         .binaryTarget(
             name: "MegLiveV5DetectLiteBinary",
